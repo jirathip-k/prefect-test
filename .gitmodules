@@ -1,3 +1,4 @@
 [submodule "test-pipeline"]
 	path = test-pipeline
 	url = https://github.com/jirathip-k/test-pipeline.git
+	branch = main
