@@ -33,11 +33,11 @@ deployments:
     name:
     work_queue_name:
     job_variables: {}
-- name: test
+- name: test-outer-dir
   version:
   tags: []
   description:
-  entrypoint: src/prefect_test/main.py:process_port
+  entrypoint: pipeline/src/prefect_test/main.py:process_port
   parameters: {}
   work_pool:
     name: test
